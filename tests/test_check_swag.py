@@ -1,6 +1,7 @@
 from pages.swag_labs import SwagLabs
 from selenium.webdriver.common.by import By
 
+
 # Переход на страницу, проверка наличия иконки.
 def test_check_icon(browser):
     sauce_demo_page = SwagLabs(browser)

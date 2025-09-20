@@ -1,6 +1,7 @@
 from pages.base_page import BasePage
 from selenium.common.exceptions import NoSuchElementException
 
+
 class SwagLabs(BasePage):
 
     def exist_icon(self):
